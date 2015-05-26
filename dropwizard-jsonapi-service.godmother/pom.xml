@@ -2,20 +2,20 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<artifactId>dropwizard-jsonapi-parent</artifactId>
-		<groupId>io.rtr.dropwizard.jsonapi</groupId>
+		<artifactId>dropwizard-jsonapi-parent.godmother</artifactId>
+		<groupId>io.rtr.dropwizard.jsonapi.godmother</groupId>
 		<version>0.5-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<artifactId>dropwizard-jsonapi-service</artifactId>
+	<artifactId>dropwizard-jsonapi-service.godmother</artifactId>
 	<packaging>jar</packaging>
 	<name>Sample Dropwizard JSONAPI service</name>
 
 	<dependencies>
 		<dependency>
-			<groupId>io.rtr.dropwizard.jsonapi</groupId>
-			<artifactId>dropwizard-jsonapi</artifactId>
+			<groupId>io.rtr.dropwizard.jsonapi.godmother</groupId>
+			<artifactId>dropwizard-jsonapi.godmother</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
