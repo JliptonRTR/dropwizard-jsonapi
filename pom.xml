@@ -3,7 +3,7 @@
 
 	<groupId>io.rtr.dropwizard.jsonapi</groupId>
 	<artifactId>dropwizard-jsonapi-parent</artifactId>
-	<version>0.4</version>
+	<version>0.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Dropwizard JSONAP Extension</name>
@@ -17,7 +17,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:JliptonRTR/dropwizard-jsonapi.git</connection>
 		<url>scm:git:git@github.com:JliptonRTR/dropwizard-jsonapi.git</url>
-		<tag>v0.4</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<properties>
