@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>io.rtr.dropwizard.jsonapi</groupId>
-	<artifactId>dropwizard-jsonapi-parent</artifactId>
+	<groupId>io.rtr.dropwizard.jsonapi.godmother</groupId>
+	<artifactId>dropwizard-jsonapi-parent.godmother</artifactId>
 	<version>0.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -10,8 +10,8 @@
 	<url>https://github.com/JliptonRTR/dropwizard-jsonapi</url>
 
 	<modules>
-		<module>dropwizard-jsonapi</module>
-		<module>dropwizard-jsonapi-service</module>
+		<module>dropwizard-jsonapi.godmother</module>
+		<module>dropwizard-jsonapi-service.godmother</module>
 	</modules>
 
 	<scm>
@@ -25,6 +25,13 @@
 		<dropwizard.version>0.8.0-rc1</dropwizard.version>
 		<jersey.version>2.17</jersey.version>
 	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>maven.jenkins-ci.org</id>
+			<url>http://maven.jenkins-ci.org:8081/content/repositories/releases/</url>
+		</repository>
+	</distributionManagement>
 
 	<dependencyManagement>
 		<dependencies>

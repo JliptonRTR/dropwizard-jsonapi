@@ -2,12 +2,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>dropwizard-jsonapi-parent</artifactId>
-        <groupId>io.rtr.dropwizard.jsonapi</groupId>
+        <artifactId>dropwizard-jsonapi-parent.godmother</artifactId>
+        <groupId>io.rtr.dropwizard.jsonapi.godmother</groupId>
         <version>0.5-SNAPSHOT</version>
     </parent>
 
-    <artifactId>dropwizard-jsonapi</artifactId>
+    <artifactId>dropwizard-jsonapi.godmother</artifactId>
     <packaging>jar</packaging>
     <name>Dropwizard JSONAPI Extension</name>
 
